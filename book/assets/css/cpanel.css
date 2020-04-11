@@ -1,0 +1,144 @@
+@media(min-width: 767px){
+  .header-tongle-button{
+    display: block;
+    padding: 15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    float: left;
+  }
+  .header-tongle-button:hover{
+    background: #337ab7;
+  }
+  .header-tongle-button i{
+    color: #fff;
+  }
+  .header-menu{
+    color: #fff;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+  .header-menu ul li{
+    list-style: none;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .header-menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px;
+    text-decoration: none;
+  }.header-menu ul li a:hover{
+    background: #337ab7;
+  }
+  .header-logo{
+    text-align: center;
+  }
+}
+
+
+.kiri{
+  float: left;
+}
+.kanan{
+  float: right;
+}
+.header-body{
+  position: fixed;
+  background: #3c8dbc;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 15px 15px;
+  z-index: 999;
+}
+.header-logo{
+  color: #fff;
+  width: 200px;
+}
+.header-logo b{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Bagian untuk menu Drawer */
+.menu-drawer{
+  margin: 0;
+  position: fixed;
+  background: #222d32;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-top: 50px;
+  z-index: 0;
+}
+@media(min-width: 767px){
+  .menu-drawer{
+    width: 230px;
+    left: 0;
+  }
+  .menu-drawer ul li{
+    color: #fff;
+    list-style: none;
+    margin-left: -40px;
+    padding: 15px;
+    font-size: 14px;
+  }
+  .menu-drawer ul li:hover, .aktif{
+    width: 197px;
+    background: #1e282c;
+    border-left: 3px #3c8dbc solid;
+    cursor: pointer;
+  }
+  .menu-drawer ul li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .info-user{
+    margin: 20px;
+  }
+  .info-user h6{
+    margin-top: -20px;
+  }
+  .info-user-icon{
+    color: #fff;
+    font-size: 40px;
+  }
+  .info-user-text{
+    margin-left: 10px;
+    margin-top: -10px;
+    color: #fff;
+  }
+}
+
+@media(max-width: 767px){
+  .menu-drawer{
+    width: 230px;
+    left: -230px;
+  }
+  .header-menu{
+    display: none;
+  }
+  .header-tongle-button{
+    display: block;
+    padding: 15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    float: right;
+  }
+  .header-tongle-button:hover{
+    background: #337ab7;
+  }
+  .header-tongle-button i{
+    color: #fff;
+  }
+}

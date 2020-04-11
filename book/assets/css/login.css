@@ -1,0 +1,203 @@
+body{
+  background: #ecf0f5;
+  font-family: 'Source Sans Pro','Helvetica Neue','Helvetica','Arial','sans-serif';
+  font-weight: 400;
+  margin: 0;
+}
+
+.form-group h5{
+  float: right;
+  margin-left: 10px;
+  color: #3c8dbc;
+  margin-bottom: 10px;
+}
+.box-error h5{
+  float: left;
+}
+.box-error h3{
+  float: right;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.box-sukses h5{
+   float: left;
+}
+.box-sukses h3{
+  float: right;
+  margin-right: 20px;
+  color: #fff;
+}
+
+@media(min-width: 767px){
+  .box-error{
+    width: 35%;
+    float: right;
+    color: #fff;
+    background: #f14503;
+    padding-left: 20px;
+  }
+
+  .box-sukses{
+    width: 35%;
+    float: right;
+    color: #fff;
+    background: #00a65a;
+    padding-left: 20px;
+  }
+
+  .box-luar{
+    color: #444;
+    width: 25%;
+    float: left;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-top: 3px solid #3c8dbc;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  .box-dalam{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .box-header{
+    color: #444;
+    position: relative;
+  }
+  .box-header h3, .box-header h5{
+    float: left;
+  }
+  .form-login{
+    -web-kit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: #d2d6de;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .form-login-combo-box{
+    width: 100%;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: #d2d6de;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .button-login{
+    color:#fff;
+    background: #337ab7;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+  }
+}
+
+
+@media(max-width: 767px){
+  .box-error{
+    width: 100%;
+    float: left;
+    color: #fff;
+    background: #f14503;
+    padding-left: 20px;
+  }
+
+  .box-sukses{
+    width: 100%;
+    float: left;
+    color: #fff;
+    background: #00a65a;
+    padding-left: 20px;
+  }
+  .box-luar{
+    color: #444;
+    width: 80%;
+    float: left;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-top: 3px solid #3c8dbc;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .box-dalam{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .box-header{
+    color: #444;
+    position: relative;
+  }
+  .box-header h3, .box-header h5{
+    float: left;
+  }
+  .box-error h3{
+    float: right;
+    margin-right: 50px;
+    color: #fff;
+  }
+  .form-login{
+    -web-kit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: #d2d6de;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .form-login-combo-box{
+    width: 100%;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: #d2d6de;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .button-login{
+    color:#fff;
+    background: #337ab7;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+  }
+}

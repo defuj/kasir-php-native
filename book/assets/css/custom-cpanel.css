@@ -1,0 +1,90 @@
+.main-sidebar, .left-side{
+  height: 100%;
+  position: fixed;
+}
+.skin-blue .main-header .navbar{
+  position: fixed;
+  width: 100%;
+}
+.transaksi-margin{
+  margin-bottom: 10px;
+}
+@media(min-width: 767px){
+  .navbar-custom-menu{
+    margin-right: 250px;
+  }
+  .main-header{
+    position: fixed;
+  }
+  .skin-blue .content-header{
+    padding-top: 70px;
+  }
+  .judul-buku{
+    width: 67%;
+  }
+  .jumlah-buku{
+    padding-left: 1%;
+    width: 16%;
+  }
+  .tambah-list-buku{
+    padding-left: 1%;
+    width: 7%;
+  }
+  .kurang-list-buku{
+    padding-left: 1%;
+    width: 7%;
+  }
+  .dashboard{
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 767px){
+  .main-header{
+    position: fixed;
+    width: 100%;
+  }
+  .skin-blue .content-header{
+    padding-top: 120px;
+  }
+  .judul-buku{
+    width: 67%;
+  }
+  .jumlah-buku{
+    padding-left: 1%;
+    width: 18%;
+  }
+  .tambah-list-buku{
+    padding-left: 1%;
+    width: 5%;
+  }
+  .kurang-list-buku{
+    padding-left: 1%;
+    width: 5%;
+  }
+  .dashboard{
+    margin-top: 100px;
+  }
+}
+.content-wrapper{
+  min-height: 620px;
+}
+
+.middle{
+  vertical-align: middle;
+}
+.middle-tools-size{
+  font-size:20px;
+  text-align: center;
+}
+.no-tengah{
+  text-align: center;
+}
+
+
+@media(min-width: 768px){
+  .modal-dialog{
+    width: 800px;
+    margin: 30px auto;
+  }
+}
